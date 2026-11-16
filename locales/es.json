@@ -1,0 +1,438 @@
+{
+  "meta": {
+    "title": "Café y desayuno cerca de la torre Eiffel, París 15 | Café Louise",
+    "description": "Café Louise, café y salón de té en el 57 boulevard de Grenelle (París 15), a 10 minutos a pie de la torre Eiffel. Desayuno desde las 7:00, tortillas, crepes, macarons. 4,8/5 en Google.",
+    "ogAlt": "Un capuchino y una pequeña torre Eiffel sobre una mesa de mármol del Café Louise",
+    "cuisines": [
+      "Café",
+      "Desayuno",
+      "Salón de té",
+      "Cocina francesa",
+      "Pastelería"
+    ]
+  },
+  "intro": {
+    "skip": "Saltar",
+    "city": "PARIS 15"
+  },
+  "announce": {
+    "close": "Cerrar el aviso"
+  },
+  "nav": {
+    "main": "Navegación principal",
+    "skip": "Ir al contenido",
+    "home": "inicio",
+    "menu": "La carta",
+    "breakfast": "Desayuno",
+    "tearoom": "Salón de té",
+    "access": "Cómo llegar",
+    "infos": "Info",
+    "book": "Reservar mesa",
+    "bookShort": "Reservar",
+    "directions": "Cómo llegar",
+    "call": "Llamar",
+    "whatsapp": "WhatsApp",
+    "openMenu": "Abrir el menú",
+    "close": "Cerrar",
+    "lang": "Idioma",
+    "shortcuts": "Accesos directos",
+    "seeMenu": "Ver la carta",
+    "waHello": "Hola, Café Louise. "
+  },
+  "status": {
+    "open": "Abierto ahora",
+    "closed": "Cerrado ahora",
+    "until": "hasta las {time}",
+    "opens": "abre {day} a las {time}",
+    "today": "hoy",
+    "tomorrow": "mañana"
+  },
+  "rating": {
+    "label": "{value}/5 en Google",
+    "count": "casi {count} reseñas",
+    "aria": "Nota en Google: {value} sobre 5, {count} reseñas"
+  },
+  "hero": {
+    "eyebrow": "Café · Salón de té · Cerca de la torre Eiffel",
+    "title": "Un café parisino, muy cerca de la torre Eiffel",
+    "sub": "Cruasanes desde las 7:00, tortillas, crepes, macarons y té servido en tetera, en el boulevard de Grenelle.",
+    "alt": "Un capuchino con cacao, una cucharilla dorada y una pequeña torre Eiffel sobre una mesa de mármol en la terraza"
+  },
+  "tiles": {
+    "title": "Lo que servimos",
+    "items": {
+      "petit-dejeuner": "Desayuno parisino",
+      "sale": "Tortillas y salado",
+      "crepes": "Crepes",
+      "patisseries": "Macarons y pasteles",
+      "salon": "Salón de té",
+      "boissons": "Bebidas"
+    }
+  },
+  "services": {
+    "title": "En resumen",
+    "items": [
+      {
+        "t": "A 10 min de la torre Eiffel",
+        "p": "A pie, por el Campo de Marte"
+      },
+      {
+        "t": "Abierto desde las 7:00",
+        "p": "De martes a sábado"
+      },
+      {
+        "t": "Terraza",
+        "p": "En el boulevard de Grenelle"
+      },
+      {
+        "t": "Cumpleaños",
+        "p": "Tarta, vela y mesa preparada"
+      }
+    ]
+  },
+  "carte": {
+    "eyebrow": "La carta",
+    "title": "Del primer café a la merienda",
+    "intro": "Precios en euros, servicio incluido. Los menús aparecen primero en cada pestaña.",
+    "tablist": "Secciones de la carta",
+    "priceOnSite": "Precio en el local",
+    "formula": "Menú",
+    "signature": "Nuestro favorito",
+    "veg": "Vegetariano",
+    "photoSoon": "Foto próximamente",
+    "checked": "Carta revisada el {date}. Puede cambiar según la temporada.",
+    "seeAll": "Toda la carta",
+    "printable": "Nada de PDF que descargar: la carta está aquí, al día y fácil de leer en el móvil."
+  },
+  "blocks": [
+    {
+      "eyebrow": "Por la mañana",
+      "title": "El desayuno parisino",
+      "text": "Un cruasán aún tibio, un café con leche, un zumo de naranja natural. El menú desayuno cuesta 7 € y se sirve desde la apertura, a las 7:00: el mejor momento para ver despertar a París antes de subir a la torre.",
+      "cta": "Ver la carta"
+    },
+    {
+      "eyebrow": "Por la tarde",
+      "title": "Macarons y salón de té",
+      "text": "Sillones de terciopelo rosa, mesas de mármol, flores por todas partes. Aquí se viene a tomar un té en tetera, un café vienés o una caja de macarons: frambuesa, pistacho o vainilla.",
+      "cta": "Descubrir"
+    },
+    {
+      "eyebrow": "El camino",
+      "title": "A dos pasos de la torre Eiffel",
+      "text": "Unos 10 minutos a pie cruzando el Campo de Marte. La estación de metro Dupleix (línea 6) está justo al lado, bajo el metro elevado del boulevard de Grenelle.",
+      "cta": "Cómo llegar"
+    }
+  ],
+  "walk": {
+    "title": "Plano a pie, de la torre Eiffel al café",
+    "fromEiffel": "Ruta a pie desde la torre Eiffel",
+    "duration": "≈ 10 min a pie",
+    "tower": "Torre Eiffel",
+    "champ": "Campo de Marte",
+    "seine": "El Sena",
+    "boulevard": "Bd de Grenelle · metro elevado",
+    "cafe": "Café Louise"
+  },
+  "party": {
+    "eyebrow": "Cumpleaños y grupos pequeños",
+    "title": "Nosotros preparamos la mesa, usted trae a los invitados",
+    "intro": "¿Un cumpleaños, un reencuentro, una pedida de mano cerca de la torre? Díganos la fecha, cuántas personas serán y la tarta que le gustaría: le respondemos por WhatsApp para organizarlo todo.",
+    "list": [
+      "Una tarta de cumpleaños, con su vela",
+      "Una mesa reservada y decorada",
+      "Macarons o café gourmand para terminar"
+    ],
+    "note": "Solicitud pendiente de confirmación por el café: no hay nada reservado hasta recibir su respuesta."
+  },
+  "reviews": {
+    "eyebrow": "Lo que dicen",
+    "title": "Casi 950 reseñas, 4,8 sobre 5",
+    "intro": "Los viajeros hablan de la vista de la torre, de las tortillas, de los macarons y de la acogida. Léalas directamente en Google.",
+    "google": "Leer las reseñas de Google",
+    "slot": "Reseña de cliente próximamente"
+  },
+  "infos": {
+    "eyebrow": "Información práctica",
+    "title": "Cómo llegar al Café Louise",
+    "address": "Dirección",
+    "metro": "Metro y RER",
+    "stations": [
+      {
+        "name": "Dupleix",
+        "line": "línea 6",
+        "walk": "2 min a pie"
+      },
+      {
+        "name": "La Motte-Picquet – Grenelle",
+        "line": "líneas 6, 8, 10",
+        "walk": "6 min a pie"
+      },
+      {
+        "name": "Bir-Hakeim",
+        "line": "línea 6",
+        "walk": "6 min a pie"
+      },
+      {
+        "name": "Champ de Mars – Tour Eiffel",
+        "line": "RER C",
+        "walk": "8 min a pie"
+      }
+    ],
+    "eiffel": "Torre Eiffel: unos 10 minutos a pie.",
+    "hours": "Horario",
+    "days": [
+      "Lunes",
+      "Martes",
+      "Miércoles",
+      "Jueves",
+      "Viernes",
+      "Sábado",
+      "Domingo"
+    ],
+    "closed": "Cerrado",
+    "contact": "Teléfono y WhatsApp",
+    "mapTitle": "Mapa de Google Maps del Café Louise",
+    "mapLoad": "Mostrar el mapa",
+    "mapNote": "El mapa de Google Maps solo se carga si hace clic."
+  },
+  "faq": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Antes de venir",
+    "items": [
+      {
+        "q": "¿Hay que reservar?",
+        "a": "No, puede venir sin más. Para un grupo, un cumpleaños o una hora concreta, mejor envíe una solicitud por WhatsApp o llame al +33 6 95 13 46 56: el café le confirma la mesa."
+      },
+      {
+        "q": "¿A qué hora se sirve el desayuno?",
+        "a": "Desde la apertura, a las 7:00, de martes a sábado. El menú desayuno (bollería o tostada, bebida caliente y zumo de naranja) cuesta 7 €."
+      },
+      {
+        "q": "¿Hay opciones vegetarianas?",
+        "a": "Sí: bollería, crepes, tortilla natural o de queso, pasteles y macarons. Si tiene alguna alergia, dígalo al pedir y le indicamos qué lleva cada pastel."
+      },
+      {
+        "q": "¿Tienen menú infantil?",
+        "a": "Por ahora no hay un menú infantil fijo. Una crepe y un chocolate caliente suelen hacer felices a los pequeños; pregúntenos, siempre encontramos algo."
+      },
+      {
+        "q": "¿Se puede celebrar un cumpleaños?",
+        "a": "Sí, es casi una tradición de la casa: tarta, vela y mesa preparada. Envíe su solicitud unos días antes con el formulario « Cumpleaños »; el café le responde por WhatsApp."
+      },
+      {
+        "q": "¿Qué idiomas hablan?",
+        "a": "La web y la carta están en francés, inglés y español. Cada día pasan viajeros de todo el mundo: con la carta delante, siempre nos entendemos."
+      },
+      {
+        "q": "¿Qué formas de pago aceptan?",
+        "a": "{payment}"
+      }
+    ],
+    "paymentUnknown": "Se indicarán aquí muy pronto. Si tiene dudas, llámenos al +33 6 95 13 46 56."
+  },
+  "footer": {
+    "tagline": "Café, salón de té y desayuno parisino, a diez minutos de la torre Eiffel.",
+    "hours": "Horario",
+    "openDays": "De martes a sábado",
+    "closedDays": "Cerrado domingo y lunes",
+    "pages": "Páginas",
+    "legal": "Aviso legal",
+    "rights": "Café Louise, París 15"
+  },
+  "form": {
+    "name": "Nombre",
+    "phone": "Teléfono",
+    "message": "Mensaje",
+    "optional": "opcional",
+    "date": "Fecha",
+    "time": "Hora",
+    "guests": "Número de personas",
+    "occasion": "Ocasión",
+    "occasions": {
+      "none": "Simple visita",
+      "breakfast": "Desayuno",
+      "birthday": "Cumpleaños",
+      "couple": "En pareja",
+      "family": "En familia",
+      "friends": "Con amigos",
+      "other": "Otra"
+    },
+    "cake": "Tarta deseada",
+    "cakes": {
+      "none": "Sin tarta",
+      "fruits": "Tarta de frutos rojos",
+      "chocolat": "Tarta de chocolate",
+      "macarons": "Torre de macarons",
+      "advice": "Quisiera su consejo"
+    },
+    "chooseTime": "Elegir una hora",
+    "noTime": "El café cierra ese día (abre de martes a sábado). Elija otra fecha.",
+    "tooLate": "Ya no quedan horas hoy: elija otro día.",
+    "maxGuests": "¿Más de {n} personas? Use el formulario « Cumpleaños y grupos pequeños ».",
+    "messagePh": "Una alergia, un carrito de bebé, una mesa en la terraza si es posible…",
+    "partyPh": "El nombre que escribir en la tarta, una sorpresa que preparar…",
+    "send": "Enviar por WhatsApp",
+    "sendHint": "WhatsApp se abre con su solicitud ya escrita: solo tiene que enviarla.",
+    "sentTitle": "Su solicitud está lista",
+    "sentText": "Si WhatsApp no se ha abierto, use el botón de abajo o llame al café. La mesa solo queda reservada cuando el café responda.",
+    "openAgain": "Abrir WhatsApp",
+    "copy": "Copiar el texto",
+    "copied": "Copiado",
+    "newRequest": "Hacer otra solicitud",
+    "orCall": "o llame al",
+    "privacy": "Sus datos solo sirven para responder a su solicitud. No se guardan en esta web.",
+    "errors": {
+      "name": "Indique su nombre.",
+      "phone": "Indique un número de teléfono válido.",
+      "date": "Elija una fecha.",
+      "time": "Elija una hora.",
+      "guests": "Indique el número de personas."
+    }
+  },
+  "booking": {
+    "eyebrow": "Reservas",
+    "title": "Reservar mesa",
+    "intro": "Elija el día, la hora y el número de personas. La solicitud se envía por WhatsApp y el café le confirma la mesa.",
+    "wa": {
+      "title": "Hola, Café Louise. Quisiera reservar una mesa.",
+      "date": "Fecha",
+      "time": "Hora",
+      "guests": "Personas",
+      "occasion": "Ocasión",
+      "name": "Nombre",
+      "phone": "Teléfono",
+      "message": "Mensaje",
+      "thanks": "¡Gracias!"
+    }
+  },
+  "partyForm": {
+    "title": "Su solicitud de cumpleaños o de grupo",
+    "wa": {
+      "title": "Hola, Café Louise. Estoy preparando un cumpleaños o una salida en grupo.",
+      "date": "Fecha",
+      "guests": "Personas",
+      "cake": "Tarta",
+      "name": "Nombre",
+      "phone": "Teléfono",
+      "message": "Mensaje",
+      "thanks": "¿Me pueden decir si es posible? ¡Gracias!"
+    }
+  },
+  "pages": {
+    "carte": {
+      "title": "La carta",
+      "metaTitle": "La carta: desayuno, crepes, macarons, cafés | Café Louise París 15",
+      "metaDescription": "La carta del Café Louise cerca de la torre Eiffel: menú desayuno a 7 €, tortillas, crepes, macarons, cafés y tés, con precios.",
+      "h1": "La carta del Café Louise",
+      "intro": "Desayuno, tortillas, crepes, pasteles y bebidas, con precios. Los menús de mediodía están en la pestaña « Tortillas y salado »."
+    },
+    "reserver": {
+      "title": "Reservar mesa",
+      "metaTitle": "Reservar mesa en el Café Louise, cerca de la torre Eiffel | París 15",
+      "metaDescription": "Reserve su mesa en el Café Louise, 57 boulevard de Grenelle: desayuno, salón de té, cumpleaños. Solicitud por WhatsApp, confirmada por el café.",
+      "h1": "Reservar mesa",
+      "intro": "No es obligatorio, pero resulta práctico para una hora concreta o una ocasión especial. Su solicitud se envía por WhatsApp y el café le confirma."
+    },
+    "petitdej": {
+      "title": "Desayuno cerca de la torre Eiffel",
+      "metaTitle": "Desayuno cerca de la torre Eiffel, desde las 7:00 | Café Louise París 15",
+      "metaDescription": "Un auténtico desayuno parisino a 10 minutos a pie de la torre Eiffel: cruasán, café y zumo de naranja por 7 €, tortillas y crepes. Desde las 7:00, de martes a sábado.",
+      "h1": "Desayuno cerca de la torre Eiffel",
+      "intro": "Desde las 7:00, antes de las colas de la torre: un cruasán, un café con leche y un zumo de naranja, en el 57 boulevard de Grenelle.",
+      "sections": [
+        {
+          "h": "Un auténtico desayuno parisino",
+          "p": [
+            "El menú de 7 € es lo que toman los parisinos en la barra: una pieza de bollería (cruasán o pain au chocolat) o una tostada, una bebida caliente y un zumo de naranja.",
+            "¿Más hambre? Hay tortillas, servidas con baguette, y crepes."
+          ]
+        },
+        {
+          "h": "Desde las 7:00, antes de subir a la torre",
+          "p": [
+            "El café abre a las 7:00 de martes a sábado. La torre Eiffel está a unos 10 minutos a pie cruzando el Campo de Marte: tiempo de sobra para desayunar y llegar entre los primeros.",
+            "Metro Dupleix (línea 6) a 2 minutos, La Motte-Picquet – Grenelle (líneas 6, 8 y 10) a 6 minutos."
+          ]
+        },
+        {
+          "h": "En la terraza o dentro, al calor",
+          "p": [
+            "Unas cuantas mesas en la terraza del bulevar, bajo el toldo de rayas, y una sala rosa y dorada en el interior, con sillones de terciopelo.",
+            "El café cierra los domingos y los lunes."
+          ]
+        }
+      ]
+    },
+    "salondethe": {
+      "title": "Salón de té París 15",
+      "metaTitle": "Salón de té en París 15, Grenelle y Dupleix: té, macarons | Café Louise",
+      "metaDescription": "El salón de té del boulevard de Grenelle: té en tetera, café vienés, macarons y pasteles, en una sala rosa y de mármol cerca de Dupleix. De martes a sábado.",
+      "h1": "Un salón de té en París 15, entre Dupleix y Grenelle",
+      "intro": "Té en tetera, café vienés, macarons y pasteles, en una sala de terciopelo rosa y mármol blanco.",
+      "sections": [
+        {
+          "h": "La sala",
+          "p": [
+            "Sillones de concha en terciopelo rosa, mesas de mármol con borde de latón, lámparas con flecos, guirnaldas de flores en el techo: la sala está pensada como un pequeño salón parisino.",
+            "Se viene solo con un libro, en pareja o en familia a merendar."
+          ]
+        },
+        {
+          "h": "Té, macarons y pasteles",
+          "p": [
+            "Tés e infusiones en tetera, café vienés con su nata montada, chocolate caliente. Y para acompañar: macarons por unidad o en caja, tartas del día, pasteles por porción y café gourmand.",
+            "Los precios están en la carta, en línea y al día."
+          ]
+        },
+        {
+          "h": "En el barrio",
+          "p": [
+            "En el 57 boulevard de Grenelle, bajo el metro elevado, a dos minutos de la estación Dupleix y a seis de La Motte-Picquet – Grenelle. El Campo de Marte y la torre Eiffel quedan a unos diez minutos a pie."
+          ]
+        }
+      ]
+    },
+    "legal": {
+      "title": "Aviso legal",
+      "metaTitle": "Aviso legal | Café Louise",
+      "metaDescription": "Aviso legal de la web del Café Louise, 57 boulevard de Grenelle, 75015 París.",
+      "h1": "Aviso legal",
+      "intro": ""
+    }
+  },
+  "legal": {
+    "editor": "Editor",
+    "siret": "SIRET",
+    "director": "Director de la publicación",
+    "host": "Alojamiento",
+    "photos": "Fotos",
+    "photosText": "Fotos del Café Louise, de su ficha de Google y de su cuenta de Instagram {handle}.",
+    "data": "Datos personales",
+    "dataText": "Los formularios de esta web no guardan nada: preparan un mensaje de WhatsApp que usted mismo envía al café. Sin cookies publicitarias. El mapa de Google solo se carga si usted lo pide.",
+    "toFill": "Por completar"
+  },
+  "slots": {
+    "crepes": "Foto de las crepes próximamente",
+    "boissons-fraiches": "Foto de las bebidas próximamente",
+    "theiere": "Foto de la tetera próximamente",
+    "facade": "Foto de la fachada próximamente"
+  },
+  "alt": {
+    "hero": "Un capuchino, una cucharilla dorada y una pequeña torre Eiffel sobre una mesa de mármol, en la terraza",
+    "table-terrasse": "Mesa de terraza vista desde arriba: capuchino, pain au chocolat, tarta de limón merengada y nata",
+    "omelette-jus-orange": "Tortilla de jamón y queso, baguette, café y zumo de naranja en una mesa del café",
+    "matcha-latte": "Un matcha latte espumoso y una pequeña torre Eiffel rosa",
+    "croissant-cappuccino": "Un cruasán dorado y un capuchino sobre una mesa de mármol, con un ramo de rosas",
+    "croissants-pains-au-chocolat": "Cruasanes y pains au chocolat en una bandeja dorada delante de la vitrina",
+    "macarons": "Macarons de frambuesa, pistacho y vainilla junto a una pequeña torre Eiffel",
+    "macaron-framboise": "Un macaron de frambuesa sostenido entre los dedos, en la sala rosa",
+    "tartes-maison": "Porciones de tarta de manzana, de arándanos y de vainilla vistas desde arriba",
+    "entremets-abricot": "Un entremets de albaricoque y nata decorado con pistachos",
+    "gateau-anniversaire": "Una tarta de cumpleaños de frambuesas con una vela, delante de la terraza del café",
+    "salle-guirlandes": "La sala del Café Louise: sillones de terciopelo rosa, mesas de mármol y guirnaldas de flores",
+    "salle-fauteuils": "Sillones de concha rosas, lámparas con flecos y paredes de mármol",
+    "bouquet-table": "Un ramo de rosas sobre una mesa de mármol, sillones de terciopelo rosa",
+    "enseigne": "El rótulo del Café Louise: letras doradas y corazón rosa sobre el toldo de rayas"
+  }
+}

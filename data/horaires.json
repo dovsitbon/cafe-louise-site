@@ -1,0 +1,18 @@
+{
+  "_doc": "Horaires (heure de Paris). 1 = lundi … 7 = dimanche. Du mardi au samedi 7 h – 19 h, fermé le dimanche et le lundi : relevé sur la fiche Google le 2026-11-16. Attention, la bio Instagram dit « Mardi - Samedi 7h-20h » : à confirmer avec le café. closures : fermetures sur une période (vacances…), from / to inclus (AAAA-MM-JJ) ; pendant la période, le site affiche « Fermé » et le bandeau du haut l'annonce (textes fr, en, es). exceptions : un jour particulier, « closed » ou des créneaux (ex. 25 décembre). Le statut « Ouvert / Fermé » en direct et les heures du formulaire de réservation en dépendent.",
+  "timezone": "Europe/Paris",
+  "week": {
+    "1": [],
+    "2": [["07:00", "19:00"]],
+    "3": [["07:00", "19:00"]],
+    "4": [["07:00", "19:00"]],
+    "5": [["07:00", "19:00"]],
+    "6": [["07:00", "19:00"]],
+    "7": []
+  },
+  "closures": [],
+  "exceptions": [
+    { "date": "2026-12-25", "closed": true },
+    { "date": "2027-01-01", "closed": true }
+  ]
+}

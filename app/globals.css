@@ -1,0 +1,437 @@
+@import "tailwindcss";
+
+/* Polices en local (public/fonts) : Playfair Display pour les titres, Jost pour le texte. Aucun appel à Google Fonts. */
+@font-face {
+  font-family: "Playfair Local";
+  src: url("/fonts/playfair-display-latin-wght-normal.woff2") format("woff2");
+  font-weight: 400 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Playfair Local";
+  src: url("/fonts/playfair-display-latin-wght-italic.woff2") format("woff2");
+  font-weight: 400 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Jost Local";
+  src: url("/fonts/jost-latin-wght-normal.woff2") format("woff2");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@theme {
+  /* Charte tirée de la salle et de l'enseigne : crème et marbre, rose poudré des fauteuils en velours,
+     bleu nuit pour le texte et les boutons, doré de l'enseigne pour les filets, framboise du cœur (rare),
+     vert d'eau des chaises de terrasse. */
+  --color-cream: #faf6ef;
+  --color-cream-deep: #f1e9dd;
+  --color-paper: #fffdf9;
+  --color-rose: #e9c9c3;
+  --color-rose-soft: #f6e7e3;
+  --color-night: #1f2a44;
+  --color-night-deep: #161e33;
+  --color-gold: #b8975a;
+  /* Doré lisible sur crème (4,9:1) pour les petits textes */
+  --color-gold-deep: #84652f;
+  --color-heart: #c8307a;
+  --color-water: #a9c6be;
+  --color-water-soft: #e4eeea;
+  --color-ink: #1f2a44;
+  /* Texte courant secondaire : 6:1 sur crème */
+  --color-muted: #555a69;
+  --color-line: #e6dccd;
+  --color-red: #b3262c;
+  --color-open: #3f7a5a;
+
+  --font-body: "Jost Local", system-ui, sans-serif;
+  --font-display: "Playfair Local", Georgia, "Times New Roman", serif;
+
+  --ease-soft: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    color-scheme: light;
+    scroll-padding-top: 6rem;
+    scroll-behavior: smooth;
+  }
+  body {
+    background: var(--color-cream);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    font-size: 1.0625rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  a,
+  button,
+  label,
+  select,
+  input,
+  summary {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+  button {
+    cursor: pointer;
+  }
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  ::selection {
+    background: var(--color-rose);
+    color: var(--color-night);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-heart);
+    outline-offset: 3px;
+  }
+  [hidden] {
+    display: none !important;
+  }
+  input,
+  select,
+  textarea {
+    font: inherit;
+  }
+}
+
+@layer components {
+  .display {
+    font-family: var(--font-display);
+    font-weight: 500;
+    line-height: 1.06;
+    letter-spacing: -0.012em;
+  }
+  /* Petite ligne au-dessus des titres : Playfair italique, doré lisible */
+  .eyebrow {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: 1.0625rem;
+    line-height: 1.3;
+    color: var(--color-gold-deep);
+  }
+  /* Capitales espacées, comme « PARIS » sur l'enseigne : ligne du hero et tuiles seulement */
+  .sign {
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+  }
+  .lead {
+    font-size: 1.125rem;
+    line-height: 1.65;
+    color: var(--color-muted);
+  }
+  .btn,
+  .btn-line,
+  .btn-light,
+  .btn-rose {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.55rem;
+    min-height: 3rem;
+    padding: 0.75rem 1.5rem;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.15;
+    white-space: nowrap;
+    transition:
+      background-color 0.2s var(--ease-soft),
+      color 0.2s var(--ease-soft),
+      border-color 0.2s var(--ease-soft),
+      transform 0.15s var(--ease-soft);
+  }
+  .btn:active,
+  .btn-line:active,
+  .btn-light:active,
+  .btn-rose:active {
+    transform: scale(0.98);
+  }
+  .btn {
+    background: var(--color-night);
+    border-color: var(--color-night);
+    color: var(--color-cream);
+  }
+  .btn:hover {
+    background: var(--color-night-deep);
+    border-color: var(--color-night-deep);
+  }
+  .btn-rose {
+    background: var(--color-rose);
+    border-color: var(--color-rose);
+    color: var(--color-night);
+  }
+  .btn-rose:hover {
+    background: #e0b8b1;
+    border-color: #e0b8b1;
+  }
+  .btn-line {
+    border-color: currentColor;
+  }
+  .btn-line:hover {
+    background: var(--color-night);
+    border-color: var(--color-night);
+    color: var(--color-cream);
+  }
+  .btn-light {
+    background: var(--color-cream);
+    border-color: var(--color-cream);
+    color: var(--color-night);
+  }
+  .btn-light:hover {
+    background: var(--color-rose);
+    border-color: var(--color-rose);
+  }
+  .btn:disabled {
+    opacity: 0.6;
+    cursor: progress;
+  }
+  .link-line {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.3em;
+    text-decoration-color: color-mix(in oklab, var(--color-gold) 70%, transparent);
+    transition: text-decoration-color 0.2s;
+  }
+  .link-line:hover {
+    text-decoration-color: currentColor;
+  }
+
+  .field {
+    width: 100%;
+    min-height: 3rem;
+    border: 1px solid #cdbfa9;
+    border-radius: 3px;
+    background: var(--color-paper);
+    padding: 0.6rem 0.9rem;
+    font-size: 1rem;
+    color: var(--color-ink);
+    transition:
+      border-color 0.2s,
+      box-shadow 0.2s;
+  }
+  textarea.field {
+    min-height: 6.5rem;
+    resize: vertical;
+  }
+  select.field {
+    appearance: none;
+    background: var(--color-paper) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231F2A44' stroke-width='1.6' stroke-linecap='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E") no-repeat right 0.85rem center / 1.05rem;
+    padding-inline-end: 2.5rem;
+    cursor: pointer;
+  }
+  .field:focus {
+    outline: none;
+    border-color: var(--color-night);
+    box-shadow: 0 0 0 1px var(--color-night);
+  }
+  .field[aria-invalid="true"] {
+    border-color: var(--color-red);
+  }
+  .field::placeholder {
+    color: #807a76;
+  }
+  .label {
+    display: block;
+    margin-bottom: 0.4rem;
+    font-size: 0.9375rem;
+    font-weight: 500;
+  }
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.75rem;
+    padding: 0.4rem 1rem;
+    border: 1px solid #cdbfa9;
+    border-radius: 999px;
+    background: var(--color-paper);
+    font-size: 0.9375rem;
+    cursor: pointer;
+    transition:
+      border-color 0.2s,
+      background-color 0.2s,
+      color 0.2s;
+  }
+  .chip:hover {
+    border-color: var(--color-night);
+  }
+  .chip:has(input:checked) {
+    border-color: var(--color-night);
+    background: var(--color-night);
+    color: var(--color-cream);
+  }
+  .chip:has(input:focus-visible) {
+    outline: 2px solid var(--color-heart);
+    outline-offset: 3px;
+  }
+  .tag {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 999px;
+    padding: 0.1rem 0.6rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 1.5;
+    white-space: nowrap;
+  }
+
+  /* Lignes pointillées de la carte, comme sur la carte de table du café */
+  .leader {
+    flex: 1;
+    min-width: 1.5rem;
+    border-bottom: 1px dotted #b9ab95;
+    transform: translateY(-0.3em);
+  }
+
+  /* Feston : le bord des stores parisiens et des fauteuils coquillage. Couleur = currentColor. */
+  .scallop {
+    height: 12px;
+    background: radial-gradient(circle at 12px 0, currentColor 11px, transparent 11.5px) repeat-x;
+    background-size: 24px 12px;
+  }
+
+  .zoom {
+    overflow: hidden;
+  }
+
+  .tabs {
+    scrollbar-width: none;
+  }
+  .tabs::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Apparition au défilement (components/Reveal.tsx) */
+html.js .reveal:not(.in) {
+  opacity: 0;
+  transform: translateY(var(--reveal-y, 16px));
+}
+.reveal {
+  transition:
+    opacity 0.6s var(--ease-out) var(--reveal-delay, 0s),
+    transform 0.6s var(--ease-out) var(--reveal-delay, 0s);
+}
+.fade-in {
+  animation: fade-in 0.3s var(--ease-soft) both;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+
+/* ——— Ouverture (1,2 s au plus) : fond crème, la tour Eiffel se dessine au trait doré, une petite tasse fume à son pied,
+   « CAFÉ LOUISE » puis « PARIS 15 », fondu sur le hero. Une fois par session. ——— */
+.intro-curtain {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-cream);
+  animation: intro-out 0.25s ease-out 0.95s forwards;
+}
+html.intro-seen .intro-curtain,
+html:not(.js) .intro-curtain {
+  display: none;
+}
+@keyframes intro-out {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.intro-draw {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: intro-draw 0.5s var(--ease-soft) 0.05s forwards;
+}
+.intro-draw-2 {
+  animation-delay: 0.3s;
+  animation-duration: 0.3s;
+}
+.intro-steam {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation:
+    intro-draw 0.25s var(--ease-soft) 0.45s forwards,
+    intro-steam 0.6s ease-in-out 0.55s infinite alternate;
+}
+@keyframes intro-draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes intro-steam {
+  to {
+    transform: translateY(-1.5px);
+    opacity: 0.6;
+  }
+}
+.intro-word {
+  opacity: 0;
+  transform: translateY(6px);
+  animation: intro-word 0.25s var(--ease-soft) 0.5s forwards;
+}
+.intro-word-2 {
+  animation-delay: 0.66s;
+}
+@keyframes intro-word {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* FAQ */
+details > summary {
+  list-style: none;
+  cursor: pointer;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+.faq-plus {
+  transition: transform 0.25s var(--ease-soft);
+}
+details[open] .faq-plus {
+  transform: rotate(45deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .intro-curtain {
+    display: none;
+  }
+  html.js .reveal:not(.in) {
+    opacity: 1;
+    transform: none;
+  }
+}

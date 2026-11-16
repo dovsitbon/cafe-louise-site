@@ -1,0 +1,257 @@
+{
+  "_doc": "La carte du Café Louise. price : en euros (nombre) ou null = « prix sur place » (à remplir). Prix relevés le 2026-11-16 : boissons et cafés sur la carte de table photographiée (fiche Google) ; formules sur l'ardoise devant le café (formule petit-déjeuner 7 € lue sur une photo un peu effacée, à confirmer). Les autres articles (viennoiseries à l'unité, omelettes, crêpes, macarons, pâtisseries) viennent des photos et des avis : noms et prix à confirmer avec le café. photo : chemin dans public/media (absente = emplacement dessiné « photo à venir »). formula : mis en avant en tête d'onglet. size : contenance affichée à côté du nom.",
+  "checked": "2026-11-16",
+  "categories": [
+    {
+      "id": "petit-dejeuner",
+      "photo": "/media/petit-dejeuner/croissant-cappuccino.jpg",
+      "fr": "Petit-déjeuner",
+      "en": "Breakfast",
+      "es": "Desayuno",
+      "items": [
+        {
+          "id": "formule-petit-dejeuner",
+          "price": 7,
+          "formula": true,
+          "photo": "/media/petit-dejeuner/croissant-cappuccino.jpg",
+          "fr": { "name": "Formule petit-déjeuner parisien", "desc": "Un croissant, un pain au chocolat ou une tartine, une boisson chaude et un jus d'orange." },
+          "en": { "name": "Parisian breakfast set", "desc": "A croissant, a pain au chocolat or buttered bread, a hot drink and an orange juice." },
+          "es": { "name": "Menú desayuno parisino", "desc": "Un cruasán, un pain au chocolat o una tostada, una bebida caliente y un zumo de naranja." }
+        },
+        {
+          "id": "croissant",
+          "price": null,
+          "photo": "/media/petit-dejeuner/croissants-pains-au-chocolat.jpg",
+          "veg": true,
+          "fr": { "name": "Croissant", "desc": "Pur beurre, doré, à manger encore tiède avec le café." },
+          "en": { "name": "Croissant", "desc": "All-butter and golden, best eaten still warm with your coffee." },
+          "es": { "name": "Cruasán", "desc": "De pura mantequilla, dorado, para tomar aún tibio con el café." }
+        },
+        {
+          "id": "pain-au-chocolat",
+          "price": null,
+          "veg": true,
+          "fr": { "name": "Pain au chocolat", "desc": "Le classique du matin parisien, deux barres de chocolat." },
+          "en": { "name": "Pain au chocolat", "desc": "The Paris morning classic, with two sticks of chocolate." },
+          "es": { "name": "Pain au chocolat", "desc": "El clásico de la mañana en París, con dos barritas de chocolate." }
+        },
+        {
+          "id": "tartine",
+          "price": null,
+          "veg": true,
+          "fr": { "name": "Tartine beurre et confiture", "desc": "Baguette fraîche, beurre et confiture." },
+          "en": { "name": "Bread, butter and jam", "desc": "Fresh baguette with butter and jam." },
+          "es": { "name": "Tostada con mantequilla y mermelada", "desc": "Baguette fresca, mantequilla y mermelada." }
+        }
+      ]
+    },
+    {
+      "id": "sale",
+      "photo": "/media/petit-dejeuner/omelette-jus-orange.jpg",
+      "fr": "Omelettes et salé",
+      "en": "Omelettes and savoury",
+      "es": "Tortillas y salado",
+      "items": [
+        {
+          "id": "omelette",
+          "price": null,
+          "photo": "/media/petit-dejeuner/omelette-jus-orange.jpg",
+          "signature": true,
+          "fr": { "name": "Omelette", "desc": "Nature, jambon, fromage ou jambon-fromage, servie avec de la baguette." },
+          "en": { "name": "Omelette", "desc": "Plain, ham, cheese or ham and cheese, served with baguette." },
+          "es": { "name": "Tortilla francesa", "desc": "Natural, de jamón, de queso o de jamón y queso, con baguette." }
+        },
+        {
+          "id": "formule-sandwich",
+          "price": 9.9,
+          "formula": true,
+          "fr": { "name": "Formule sandwich", "desc": "Sandwich, boisson et dessert. Le midi." },
+          "en": { "name": "Sandwich lunch deal", "desc": "Sandwich, drink and dessert. At lunchtime." },
+          "es": { "name": "Menú bocadillo", "desc": "Bocadillo, bebida y postre. A mediodía." }
+        },
+        {
+          "id": "formule-salade",
+          "price": 11.9,
+          "formula": true,
+          "fr": { "name": "Formule salade", "desc": "Salade, boisson et dessert. Le midi." },
+          "en": { "name": "Salad lunch deal", "desc": "Salad, drink and dessert. At lunchtime." },
+          "es": { "name": "Menú ensalada", "desc": "Ensalada, bebida y postre. A mediodía." }
+        },
+        {
+          "id": "formule-plat-du-jour",
+          "price": 13.9,
+          "formula": true,
+          "fr": { "name": "Formule plat du jour", "desc": "Plat du jour, boisson et dessert. Le plat change chaque jour, il est écrit sur l'ardoise." },
+          "en": { "name": "Dish of the day deal", "desc": "Dish of the day, drink and dessert. The dish changes daily; it's on the chalkboard." },
+          "es": { "name": "Menú plato del día", "desc": "Plato del día, bebida y postre. El plato cambia cada día, está en la pizarra." }
+        },
+        {
+          "id": "plat-du-jour",
+          "price": 9.9,
+          "fr": { "name": "Plat du jour seul", "desc": "Cuisine française simple, faite le jour même (par exemple un fish and chips de merlu et sa ratatouille)." },
+          "en": { "name": "Dish of the day only", "desc": "Simple French cooking, made that morning (for example hake fish and chips with ratatouille)." },
+          "es": { "name": "Solo plato del día", "desc": "Cocina francesa sencilla, hecha el mismo día (por ejemplo merluza rebozada con ratatouille)." }
+        }
+      ]
+    },
+    {
+      "id": "crepes",
+      "photo": "",
+      "fr": "Crêpes",
+      "en": "Crêpes",
+      "es": "Crepes",
+      "items": [
+        {
+          "id": "crepe-sucre",
+          "price": null,
+          "veg": true,
+          "fr": { "name": "Crêpe au sucre", "desc": "La plus simple, beurre et sucre." },
+          "en": { "name": "Sugar crêpe", "desc": "The simplest one: butter and sugar." },
+          "es": { "name": "Crepe de azúcar", "desc": "La más sencilla: mantequilla y azúcar." }
+        },
+        {
+          "id": "crepe-chocolat",
+          "price": null,
+          "veg": true,
+          "fr": { "name": "Crêpe au chocolat", "desc": "Nappée de chocolat fondu." },
+          "en": { "name": "Chocolate crêpe", "desc": "Topped with melted chocolate." },
+          "es": { "name": "Crepe de chocolate", "desc": "Cubierta de chocolate fundido." }
+        },
+        {
+          "id": "crepe-confiture",
+          "price": null,
+          "veg": true,
+          "fr": { "name": "Crêpe à la confiture", "desc": "Avec une confiture de fruits rouges." },
+          "en": { "name": "Jam crêpe", "desc": "With red berry jam." },
+          "es": { "name": "Crepe de mermelada", "desc": "Con mermelada de frutos rojos." }
+        }
+      ]
+    },
+    {
+      "id": "patisseries",
+      "photo": "/media/patisseries/macarons.jpg",
+      "fr": "Pâtisseries et macarons",
+      "en": "Pastries and macarons",
+      "es": "Pasteles y macarons",
+      "items": [
+        {
+          "id": "macarons",
+          "price": null,
+          "photo": "/media/patisseries/macarons.jpg",
+          "signature": true,
+          "veg": true,
+          "fr": { "name": "Macarons", "desc": "Framboise, pistache, vanille, café… À l'unité, sur place, ou en boîte à emporter." },
+          "en": { "name": "Macarons", "desc": "Raspberry, pistachio, vanilla, coffee… By the piece, or boxed to take away." },
+          "es": { "name": "Macarons", "desc": "Frambuesa, pistacho, vainilla, café… Por unidad, o en caja para llevar." }
+        },
+        {
+          "id": "cafe-gourmand",
+          "price": 8.5,
+          "fr": { "name": "Café gourmand", "desc": "Un espresso et un assortiment de petites douceurs." },
+          "en": { "name": "Café gourmand", "desc": "An espresso with a selection of small sweets." },
+          "es": { "name": "Café gourmand", "desc": "Un espresso con un surtido de pequeños dulces." }
+        },
+        {
+          "id": "tartes",
+          "price": null,
+          "photo": "/media/patisseries/tartes-maison.jpg",
+          "veg": true,
+          "fr": { "name": "Tartes du jour", "desc": "Pommes, myrtilles, citron meringué : selon la vitrine du jour." },
+          "en": { "name": "Tarts of the day", "desc": "Apple, blueberry, lemon meringue: whatever is in the window today." },
+          "es": { "name": "Tartas del día", "desc": "Manzana, arándanos, limón merengado: según la vitrina del día." }
+        },
+        {
+          "id": "entremets",
+          "price": null,
+          "photo": "/media/patisseries/entremets-abricot.jpg",
+          "veg": true,
+          "fr": { "name": "Gâteaux et entremets", "desc": "À la part, ou entier sur commande pour un anniversaire." },
+          "en": { "name": "Cakes and entremets", "desc": "By the slice, or whole to order for a birthday." },
+          "es": { "name": "Tartas y entremets", "desc": "Por porción, o enteros por encargo para un cumpleaños." }
+        }
+      ]
+    },
+    {
+      "id": "boissons-chaudes",
+      "photo": "/media/hero/hero.jpg",
+      "fr": "Boissons chaudes",
+      "en": "Hot drinks",
+      "es": "Bebidas calientes",
+      "items": [
+        { "id": "espresso", "price": 2.5, "fr": { "name": "Espresso", "desc": "" }, "en": { "name": "Espresso", "desc": "" }, "es": { "name": "Espresso", "desc": "" } },
+        { "id": "americano", "price": 3, "fr": { "name": "Americano", "desc": "" }, "en": { "name": "Americano", "desc": "" }, "es": { "name": "Americano", "desc": "" } },
+        { "id": "latte", "price": 4.5, "fr": { "name": "Latte", "desc": "" }, "en": { "name": "Latte", "desc": "" }, "es": { "name": "Latte", "desc": "" } },
+        {
+          "id": "cappuccino",
+          "price": 5,
+          "photo": "/media/hero/hero.jpg",
+          "fr": { "name": "Cappuccino", "desc": "Mousse de lait épaisse, un voile de cacao." },
+          "en": { "name": "Cappuccino", "desc": "Thick milk foam and a dusting of cocoa." },
+          "es": { "name": "Capuchino", "desc": "Espuma de leche espesa y un toque de cacao." }
+        },
+        {
+          "id": "cafe-viennois",
+          "price": 6,
+          "signature": true,
+          "fr": { "name": "Café viennois", "desc": "Café allongé, généreuse crème fouettée." },
+          "en": { "name": "Café viennois", "desc": "Coffee topped with a generous swirl of whipped cream." },
+          "es": { "name": "Café vienés", "desc": "Café con una generosa capa de nata montada." }
+        },
+        {
+          "id": "chocolat-chaud",
+          "price": 4.5,
+          "fr": { "name": "Chocolat chaud", "desc": "" },
+          "en": { "name": "Hot chocolate", "desc": "" },
+          "es": { "name": "Chocolate caliente", "desc": "" }
+        },
+        {
+          "id": "the-infusion",
+          "price": 4.4,
+          "fr": { "name": "Thé ou infusion", "desc": "Servi en théière, au salon de thé." },
+          "en": { "name": "Tea or herbal tea", "desc": "Served in a teapot, tea-room style." },
+          "es": { "name": "Té o infusión", "desc": "Servido en tetera, como en un salón de té." }
+        },
+        {
+          "id": "matcha-latte",
+          "price": null,
+          "photo": "/media/petit-dejeuner/matcha-latte.jpg",
+          "fr": { "name": "Matcha latte", "desc": "Thé vert matcha et lait mousseux." },
+          "en": { "name": "Matcha latte", "desc": "Matcha green tea with frothy milk." },
+          "es": { "name": "Matcha latte", "desc": "Té verde matcha con leche espumosa." }
+        }
+      ]
+    },
+    {
+      "id": "boissons-fraiches",
+      "photo": "",
+      "fr": "Boissons fraîches",
+      "en": "Cold drinks",
+      "es": "Bebidas frías",
+      "items": [
+        {
+          "id": "jus-orange-presse",
+          "price": 5.9,
+          "size": "25 cl",
+          "fr": { "name": "Jus d'orange pressé", "desc": "Pressé à la commande." },
+          "en": { "name": "Freshly squeezed orange juice", "desc": "Squeezed to order." },
+          "es": { "name": "Zumo de naranja natural", "desc": "Exprimido al momento." }
+        },
+        {
+          "id": "ice-latte",
+          "price": 5,
+          "fr": { "name": "Ice latte aromatisé", "desc": "Latte glacé, avec le sirop de votre choix." },
+          "en": { "name": "Flavoured iced latte", "desc": "Iced latte with the syrup of your choice." },
+          "es": { "name": "Ice latte con sabor", "desc": "Latte con hielo y el sirope que prefiera." }
+        },
+        { "id": "jus-de-fruits", "price": 3.9, "size": "25 cl", "fr": { "name": "Jus de fruits", "desc": "" }, "en": { "name": "Fruit juice", "desc": "" }, "es": { "name": "Zumo de frutas", "desc": "" } },
+        { "id": "limonade", "price": 4, "size": "25 cl", "fr": { "name": "Limonade", "desc": "" }, "en": { "name": "Lemonade", "desc": "" }, "es": { "name": "Limonada", "desc": "" } },
+        { "id": "diabolo", "price": 4.5, "size": "25 cl", "fr": { "name": "Diabolo", "desc": "Limonade et sirop." }, "en": { "name": "Diabolo", "desc": "Lemonade with a flavoured syrup." }, "es": { "name": "Diabolo", "desc": "Limonada con sirope." } },
+        { "id": "the-glace", "price": 3, "size": "25 cl", "fr": { "name": "Thé glacé", "desc": "" }, "en": { "name": "Iced tea", "desc": "" }, "es": { "name": "Té helado", "desc": "" } },
+        { "id": "soda", "price": 3, "size": "33 cl", "fr": { "name": "Soda", "desc": "" }, "en": { "name": "Soft drink", "desc": "" }, "es": { "name": "Refresco", "desc": "" } },
+        { "id": "perrier", "price": 4.5, "size": "33 cl", "fr": { "name": "Perrier", "desc": "" }, "en": { "name": "Perrier", "desc": "" }, "es": { "name": "Perrier", "desc": "" } },
+        { "id": "san-pellegrino", "price": 4.5, "size": "50 cl", "fr": { "name": "San Pellegrino", "desc": "Eau pétillante." }, "en": { "name": "San Pellegrino", "desc": "Sparkling water." }, "es": { "name": "San Pellegrino", "desc": "Agua con gas." } },
+        { "id": "vittel", "price": 4.5, "size": "50 cl", "fr": { "name": "Vittel", "desc": "Eau minérale." }, "en": { "name": "Vittel", "desc": "Still mineral water." }, "es": { "name": "Vittel", "desc": "Agua mineral." } }
+      ]
+    }
+  ]
+}

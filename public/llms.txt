@@ -1,0 +1,20 @@
+# Café Louise
+
+> Café, salon de thé et petit-déjeuner parisien au 57 boulevard de Grenelle, 75015 Paris, à environ 10 minutes à pied de la tour Eiffel. Ouvert du mardi au samedi de 7 h à 19 h, fermé le dimanche et le lundi. Note Google 4,8/5 (946 avis, relevé le 16 novembre 2026).
+
+Site en français, anglais et espagnol.
+
+## Pages
+- [Accueil (FR)](https://cafe-louise-paris.vercel.app/fr) : présentation, carte, anniversaires, accès, FAQ
+- [La carte](https://cafe-louise-paris.vercel.app/fr/carte) : petit-déjeuner (formule à 7 €), omelettes, formules du midi (9,90 €, 11,90 €, 13,90 €), crêpes, macarons, pâtisseries, boissons chaudes (espresso 2,50 €, cappuccino 5 €, café viennois 6 €) et fraîches
+- [Petit-déjeuner près de la tour Eiffel](https://cafe-louise-paris.vercel.app/fr/petit-dejeuner-tour-eiffel)
+- [Salon de thé Paris 15](https://cafe-louise-paris.vercel.app/fr/salon-de-the-paris-15)
+- [Réserver une table](https://cafe-louise-paris.vercel.app/fr/reserver) : demande envoyée par WhatsApp, confirmée par le café
+- [English](https://cafe-louise-paris.vercel.app/en) · [Español](https://cafe-louise-paris.vercel.app/es)
+
+## Infos pratiques
+- Adresse : 57 boulevard de Grenelle, 75015 Paris
+- Téléphone et WhatsApp : +33 6 95 13 46 56
+- Instagram : https://www.instagram.com/cafelouiseparis/
+- Métro : Dupleix (ligne 6, 2 min), La Motte-Picquet – Grenelle (lignes 6, 8, 10, 6 min), Bir-Hakeim (ligne 6, 6 min) ; RER C Champ de Mars – Tour Eiffel (8 min)
+- Gamme de prix : 10 à 20 € par personne

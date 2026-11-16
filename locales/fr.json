@@ -1,0 +1,438 @@
+{
+  "meta": {
+    "title": "Café et petit-déjeuner près de la tour Eiffel, Paris 15 | Café Louise",
+    "description": "Café Louise, café et salon de thé au 57 boulevard de Grenelle (Paris 15), à 10 minutes à pied de la tour Eiffel. Petit-déjeuner dès 7 h, omelettes, crêpes, macarons. 4,8/5 sur Google.",
+    "ogAlt": "Un cappuccino et une petite tour Eiffel sur une table en marbre du Café Louise",
+    "cuisines": [
+      "Café",
+      "Petit-déjeuner",
+      "Salon de thé",
+      "Cuisine française",
+      "Pâtisserie"
+    ]
+  },
+  "intro": {
+    "skip": "Passer",
+    "city": "PARIS 15"
+  },
+  "announce": {
+    "close": "Fermer le bandeau"
+  },
+  "nav": {
+    "main": "Navigation principale",
+    "skip": "Aller au contenu",
+    "home": "accueil",
+    "menu": "La carte",
+    "breakfast": "Petit-déjeuner",
+    "tearoom": "Salon de thé",
+    "access": "Accès",
+    "infos": "Infos",
+    "book": "Réserver une table",
+    "bookShort": "Réserver",
+    "directions": "Itinéraire",
+    "call": "Appeler",
+    "whatsapp": "WhatsApp",
+    "openMenu": "Ouvrir le menu",
+    "close": "Fermer",
+    "lang": "Langue",
+    "shortcuts": "Raccourcis",
+    "seeMenu": "Voir la carte",
+    "waHello": "Bonjour Café Louise, "
+  },
+  "status": {
+    "open": "Ouvert maintenant",
+    "closed": "Fermé en ce moment",
+    "until": "jusqu'à {time}",
+    "opens": "ouvre {day} à {time}",
+    "today": "aujourd'hui",
+    "tomorrow": "demain"
+  },
+  "rating": {
+    "label": "{value}/5 sur Google",
+    "count": "près de {count} avis",
+    "aria": "Note Google : {value} sur 5, {count} avis"
+  },
+  "hero": {
+    "eyebrow": "Café · Salon de thé · Près de la tour Eiffel",
+    "title": "Un café parisien, tout près de la tour Eiffel",
+    "sub": "Croissants dès 7 h, omelettes, crêpes, macarons et thé servi en théière, sur le boulevard de Grenelle.",
+    "alt": "Un cappuccino saupoudré de cacao, une cuillère dorée et une petite tour Eiffel sur une table en marbre, en terrasse"
+  },
+  "tiles": {
+    "title": "Ce qu'on sert",
+    "items": {
+      "petit-dejeuner": "Petit-déjeuner parisien",
+      "sale": "Omelettes et salé",
+      "crepes": "Crêpes",
+      "patisseries": "Macarons et pâtisseries",
+      "salon": "Salon de thé",
+      "boissons": "Boissons"
+    }
+  },
+  "services": {
+    "title": "En bref",
+    "items": [
+      {
+        "t": "À 10 min de la tour Eiffel",
+        "p": "À pied, par le Champ-de-Mars"
+      },
+      {
+        "t": "Ouvert dès 7 h",
+        "p": "Du mardi au samedi"
+      },
+      {
+        "t": "Terrasse",
+        "p": "Sur le boulevard de Grenelle"
+      },
+      {
+        "t": "Anniversaires",
+        "p": "Gâteau, bougie, table prête"
+      }
+    ]
+  },
+  "carte": {
+    "eyebrow": "La carte",
+    "title": "Du premier café au goûter",
+    "intro": "Prix affichés au comptoir, en euros, service compris. Les formules sont en tête de chaque onglet.",
+    "tablist": "Rubriques de la carte",
+    "priceOnSite": "Prix sur place",
+    "formula": "Formule",
+    "signature": "On l'adore",
+    "veg": "Végétarien",
+    "photoSoon": "Photo à venir",
+    "checked": "Carte relevée le {date}. Elle peut changer selon la saison.",
+    "seeAll": "Toute la carte",
+    "printable": "Pas de PDF à télécharger : la carte est ici, à jour, lisible sur votre téléphone."
+  },
+  "blocks": [
+    {
+      "eyebrow": "Le matin",
+      "title": "Le petit-déjeuner parisien",
+      "text": "Un croissant encore tiède, un café crème, un jus d'orange pressé. La formule est à 7 € et on la sert dès l'ouverture, à 7 h : le bon moment pour voir Paris se réveiller avant de monter à la tour.",
+      "cta": "Voir la carte"
+    },
+    {
+      "eyebrow": "L'après-midi",
+      "title": "Macarons et salon de thé",
+      "text": "Fauteuils en velours rose, tables de marbre, fleurs partout. On s'y pose pour un thé en théière, un café viennois ou une boîte de macarons, framboise, pistache ou vanille.",
+      "cta": "Découvrir"
+    },
+    {
+      "eyebrow": "Le chemin",
+      "title": "À deux pas de la tour Eiffel",
+      "text": "Environ 10 minutes à pied par le Champ-de-Mars. Le métro Dupleix (ligne 6) est juste à côté, sous le métro aérien du boulevard de Grenelle.",
+      "cta": "Itinéraire"
+    }
+  ],
+  "walk": {
+    "title": "Plan à pied, de la tour Eiffel au café",
+    "fromEiffel": "Itinéraire à pied depuis la tour Eiffel",
+    "duration": "≈ 10 min à pied",
+    "tower": "Tour Eiffel",
+    "champ": "Champ-de-Mars",
+    "seine": "La Seine",
+    "boulevard": "Bd de Grenelle · métro aérien",
+    "cafe": "Café Louise"
+  },
+  "party": {
+    "eyebrow": "Anniversaires et petits groupes",
+    "title": "On prépare la table, vous apportez les invités",
+    "intro": "Un anniversaire, des retrouvailles, une demande en mariage au pied de la tour ? Dites-nous la date, le nombre de personnes et le gâteau qui vous ferait plaisir : on vous répond sur WhatsApp pour tout caler.",
+    "list": [
+      "Un gâteau d'anniversaire, avec sa bougie",
+      "Une table réservée et décorée",
+      "Macarons ou café gourmand pour finir"
+    ],
+    "note": "Demande à confirmer par le café : rien n'est réservé tant que vous n'avez pas sa réponse."
+  },
+  "reviews": {
+    "eyebrow": "Ils en parlent",
+    "title": "Près de 950 avis, 4,8 sur 5",
+    "intro": "Les voyageurs parlent de la vue sur la tour, des omelettes, des macarons et de l'accueil. Lisez-les directement sur Google.",
+    "google": "Lire les avis Google",
+    "slot": "Avis client à venir"
+  },
+  "infos": {
+    "eyebrow": "Infos pratiques",
+    "title": "Venir au Café Louise",
+    "address": "Adresse",
+    "metro": "Métro et RER",
+    "stations": [
+      {
+        "name": "Dupleix",
+        "line": "ligne 6",
+        "walk": "2 min à pied"
+      },
+      {
+        "name": "La Motte-Picquet – Grenelle",
+        "line": "lignes 6, 8, 10",
+        "walk": "6 min à pied"
+      },
+      {
+        "name": "Bir-Hakeim",
+        "line": "ligne 6",
+        "walk": "6 min à pied"
+      },
+      {
+        "name": "Champ de Mars – Tour Eiffel",
+        "line": "RER C",
+        "walk": "8 min à pied"
+      }
+    ],
+    "eiffel": "Tour Eiffel : environ 10 minutes à pied.",
+    "hours": "Horaires",
+    "days": [
+      "Lundi",
+      "Mardi",
+      "Mercredi",
+      "Jeudi",
+      "Vendredi",
+      "Samedi",
+      "Dimanche"
+    ],
+    "closed": "Fermé",
+    "contact": "Téléphone et WhatsApp",
+    "mapTitle": "Plan Google Maps du Café Louise",
+    "mapLoad": "Afficher le plan",
+    "mapNote": "Le plan Google Maps ne se charge que si vous cliquez."
+  },
+  "faq": {
+    "eyebrow": "Questions fréquentes",
+    "title": "Avant de venir",
+    "items": [
+      {
+        "q": "Faut-il réserver ?",
+        "a": "Non, on vient comme on est. Pour un groupe, un anniversaire ou une heure précise, mieux vaut envoyer une demande par WhatsApp ou appeler le 06 95 13 46 56 : on vous confirme la table."
+      },
+      {
+        "q": "À quelle heure sert-on le petit-déjeuner ?",
+        "a": "Dès l'ouverture, à 7 h, du mardi au samedi. La formule petit-déjeuner (viennoiserie ou tartine, boisson chaude et jus d'orange) est à 7 €."
+      },
+      {
+        "q": "Y a-t-il des options végétariennes ?",
+        "a": "Oui : viennoiseries, crêpes, omelette nature ou au fromage, pâtisseries et macarons. En cas d'allergie, dites-le en commandant : on vous indique ce que contient chaque pâtisserie."
+      },
+      {
+        "q": "Avez-vous un menu enfant ?",
+        "a": "Pas de menu enfant fixe pour l'instant. Une crêpe et un chocolat chaud font souvent le bonheur des plus petits ; demandez-nous, on trouve toujours quelque chose."
+      },
+      {
+        "q": "Peut-on fêter un anniversaire ?",
+        "a": "Oui, c'est même une habitude de la maison : gâteau, bougie, table préparée. Envoyez votre demande quelques jours avant avec le formulaire « Anniversaires » ; le café vous répond sur WhatsApp."
+      },
+      {
+        "q": "Quelles langues parlez-vous ?",
+        "a": "Le site et la carte existent en français, en anglais et en espagnol. Des voyageurs du monde entier passent chaque jour : avec la carte sous les yeux, on se comprend toujours."
+      },
+      {
+        "q": "Quels moyens de paiement acceptez-vous ?",
+        "a": "{payment}"
+      }
+    ],
+    "paymentUnknown": "Ils seront précisés ici très bientôt. En cas de doute, appelez-nous au 06 95 13 46 56."
+  },
+  "footer": {
+    "tagline": "Café, salon de thé et petit-déjeuner parisien, à dix minutes de la tour Eiffel.",
+    "hours": "Horaires",
+    "openDays": "Du mardi au samedi",
+    "closedDays": "Fermé le dimanche et le lundi",
+    "pages": "Pages",
+    "legal": "Mentions légales",
+    "rights": "Café Louise, Paris 15"
+  },
+  "form": {
+    "name": "Nom",
+    "phone": "Téléphone",
+    "message": "Message",
+    "optional": "facultatif",
+    "date": "Date",
+    "time": "Heure",
+    "guests": "Nombre de personnes",
+    "occasion": "Occasion",
+    "occasions": {
+      "none": "Simple visite",
+      "breakfast": "Petit-déjeuner",
+      "birthday": "Anniversaire",
+      "couple": "En amoureux",
+      "family": "En famille",
+      "friends": "Entre amis",
+      "other": "Autre"
+    },
+    "cake": "Gâteau souhaité",
+    "cakes": {
+      "none": "Pas de gâteau",
+      "fruits": "Gâteau aux fruits rouges",
+      "chocolat": "Gâteau au chocolat",
+      "macarons": "Pièce de macarons",
+      "advice": "Je voudrais vos conseils"
+    },
+    "chooseTime": "Choisir une heure",
+    "noTime": "Le café est fermé ce jour-là (ouvert du mardi au samedi). Choisissez une autre date.",
+    "tooLate": "Plus d'heure disponible aujourd'hui : choisissez un autre jour.",
+    "maxGuests": "Plus de {n} personnes ? Utilisez le formulaire « Anniversaires et petits groupes ».",
+    "messagePh": "Une allergie, une poussette, une table en terrasse si possible…",
+    "partyPh": "Le prénom à écrire sur le gâteau, une surprise à préparer…",
+    "send": "Envoyer sur WhatsApp",
+    "sendHint": "WhatsApp s'ouvre avec votre demande déjà écrite : il ne reste qu'à l'envoyer.",
+    "sentTitle": "Votre demande est prête",
+    "sentText": "Si WhatsApp ne s'est pas ouvert, utilisez le bouton ci-dessous ou appelez le café. La table n'est réservée qu'après sa réponse.",
+    "openAgain": "Ouvrir WhatsApp",
+    "copy": "Copier le texte",
+    "copied": "Copié",
+    "newRequest": "Faire une autre demande",
+    "orCall": "ou appelez le",
+    "privacy": "Vos informations ne servent qu'à répondre à votre demande. Elles ne sont pas enregistrées sur ce site.",
+    "errors": {
+      "name": "Indiquez votre nom.",
+      "phone": "Indiquez un numéro de téléphone valide.",
+      "date": "Choisissez une date.",
+      "time": "Choisissez une heure.",
+      "guests": "Indiquez le nombre de personnes."
+    }
+  },
+  "booking": {
+    "eyebrow": "Réservation",
+    "title": "Réserver une table",
+    "intro": "Choisissez le jour, l'heure et le nombre de personnes. La demande part sur WhatsApp et le café vous confirme la table.",
+    "wa": {
+      "title": "Bonjour Café Louise, je voudrais réserver une table.",
+      "date": "Date",
+      "time": "Heure",
+      "guests": "Personnes",
+      "occasion": "Occasion",
+      "name": "Nom",
+      "phone": "Téléphone",
+      "message": "Message",
+      "thanks": "Merci !"
+    }
+  },
+  "partyForm": {
+    "title": "Votre demande d'anniversaire ou de groupe",
+    "wa": {
+      "title": "Bonjour Café Louise, je prépare un anniversaire ou une sortie de groupe.",
+      "date": "Date",
+      "guests": "Personnes",
+      "cake": "Gâteau",
+      "name": "Nom",
+      "phone": "Téléphone",
+      "message": "Message",
+      "thanks": "Pouvez-vous me dire si c'est possible ? Merci !"
+    }
+  },
+  "pages": {
+    "carte": {
+      "title": "La carte",
+      "metaTitle": "La carte : petit-déjeuner, crêpes, macarons, cafés | Café Louise Paris 15",
+      "metaDescription": "La carte du Café Louise près de la tour Eiffel : formule petit-déjeuner à 7 €, omelettes, crêpes, macarons, cafés et thés, avec les prix.",
+      "h1": "La carte du Café Louise",
+      "intro": "Petit-déjeuner, omelettes, crêpes, pâtisseries et boissons, avec les prix. Les formules du midi sont dans l'onglet « Omelettes et salé »."
+    },
+    "reserver": {
+      "title": "Réserver une table",
+      "metaTitle": "Réserver une table au Café Louise, près de la tour Eiffel | Paris 15",
+      "metaDescription": "Réservez votre table au Café Louise, 57 boulevard de Grenelle : petit-déjeuner, salon de thé, anniversaires. Demande envoyée par WhatsApp, confirmée par le café.",
+      "h1": "Réserver une table",
+      "intro": "Pas obligatoire, mais pratique pour une heure précise ou une occasion. Votre demande part sur WhatsApp, le café vous confirme."
+    },
+    "petitdej": {
+      "title": "Petit-déjeuner près de la tour Eiffel",
+      "metaTitle": "Petit-déjeuner près de la tour Eiffel, dès 7 h | Café Louise Paris 15",
+      "metaDescription": "Un vrai petit-déjeuner parisien à 10 minutes à pied de la tour Eiffel : croissant, café, jus d'orange pour 7 €, omelettes et crêpes. Dès 7 h, du mardi au samedi.",
+      "h1": "Petit-déjeuner près de la tour Eiffel",
+      "intro": "Dès 7 h, avant la file d'attente de la tour : un croissant, un café crème et un jus d'orange, au 57 boulevard de Grenelle.",
+      "sections": [
+        {
+          "h": "Un vrai petit-déjeuner parisien",
+          "p": [
+            "La formule à 7 € reprend ce que les Parisiens prennent au comptoir : une viennoiserie (croissant ou pain au chocolat) ou une tartine, une boisson chaude et un jus d'orange.",
+            "Pour une faim plus grande, il y a les omelettes, servies avec de la baguette, et les crêpes."
+          ]
+        },
+        {
+          "h": "Dès 7 h, avant de monter à la tour",
+          "p": [
+            "Le café ouvre à 7 h du mardi au samedi. La tour Eiffel est à environ 10 minutes à pied, en passant par le Champ-de-Mars : de quoi prendre son temps et arriver parmi les premiers.",
+            "Métro Dupleix (ligne 6) à 2 minutes, La Motte-Picquet – Grenelle (lignes 6, 8 et 10) à 6 minutes."
+          ]
+        },
+        {
+          "h": "En terrasse ou bien au chaud",
+          "p": [
+            "Quelques tables en terrasse sur le boulevard, sous le store rayé, et une salle rose et dorée à l'intérieur, avec ses fauteuils en velours.",
+            "Le dimanche et le lundi, le café est fermé."
+          ]
+        }
+      ]
+    },
+    "salondethe": {
+      "title": "Salon de thé Paris 15",
+      "metaTitle": "Salon de thé Paris 15, Grenelle et Dupleix : thé, macarons | Café Louise",
+      "metaDescription": "Le salon de thé du boulevard de Grenelle : thé en théière, café viennois, macarons et pâtisseries, dans une salle rose et marbre près de Dupleix. Du mardi au samedi.",
+      "h1": "Un salon de thé à Paris 15, entre Dupleix et Grenelle",
+      "intro": "Thé en théière, café viennois, macarons et pâtisseries, dans une salle en velours rose et marbre blanc.",
+      "sections": [
+        {
+          "h": "Le décor",
+          "p": [
+            "Fauteuils coquillage en velours rose, tables en marbre cerclées de laiton, abat-jour à franges, guirlandes de fleurs au plafond : la salle a été pensée comme un petit salon parisien.",
+            "On y vient seul avec un livre, à deux, ou en famille pour le goûter."
+          ]
+        },
+        {
+          "h": "Thé, macarons et pâtisseries",
+          "p": [
+            "Thés et infusions servis en théière, café viennois sous sa crème fouettée, chocolat chaud. À côté : macarons à l'unité ou en boîte, tartes du jour, gâteaux à la part et café gourmand.",
+            "Les prix sont sur la carte, en ligne et à jour."
+          ]
+        },
+        {
+          "h": "Dans le quartier",
+          "p": [
+            "Au 57 boulevard de Grenelle, sous le métro aérien, à deux minutes du métro Dupleix et à six de La Motte-Picquet – Grenelle. Le Champ-de-Mars et la tour Eiffel sont à une dizaine de minutes à pied."
+          ]
+        }
+      ]
+    },
+    "legal": {
+      "title": "Mentions légales",
+      "metaTitle": "Mentions légales | Café Louise",
+      "metaDescription": "Mentions légales du site du Café Louise, 57 boulevard de Grenelle, 75015 Paris.",
+      "h1": "Mentions légales",
+      "intro": ""
+    }
+  },
+  "legal": {
+    "editor": "Éditeur",
+    "siret": "SIRET",
+    "director": "Directeur de la publication",
+    "host": "Hébergeur",
+    "photos": "Photos",
+    "photosText": "Photos du Café Louise, de sa fiche Google et de son compte Instagram {handle}.",
+    "data": "Données personnelles",
+    "dataText": "Les formulaires de ce site n'enregistrent rien : ils préparent un message WhatsApp que vous envoyez vous-même au café. Aucun cookie publicitaire. Le plan Google Maps ne se charge que si vous le demandez.",
+    "toFill": "À compléter"
+  },
+  "slots": {
+    "crepes": "Photo des crêpes à venir",
+    "boissons-fraiches": "Photo des boissons à venir",
+    "theiere": "Photo de la théière à venir",
+    "facade": "Photo de la façade à venir"
+  },
+  "alt": {
+    "hero": "Un cappuccino, une cuillère dorée et une petite tour Eiffel sur une table en marbre, en terrasse",
+    "table-terrasse": "Table de terrasse vue de dessus : cappuccino, pain au chocolat, tarte au citron meringuée et chantilly",
+    "omelette-jus-orange": "Omelette jambon-fromage, baguette, café et jus d'orange sur une table du café",
+    "matcha-latte": "Un matcha latte mousseux et une mini tour Eiffel rose",
+    "croissant-cappuccino": "Un croissant doré et un cappuccino sur une table en marbre, avec un bouquet de roses",
+    "croissants-pains-au-chocolat": "Croissants et pains au chocolat sur un plateau doré, devant la vitrine",
+    "macarons": "Macarons framboise, pistache et vanille à côté d'une petite tour Eiffel",
+    "macaron-framboise": "Un macaron framboise tenu du bout des doigts, dans la salle rose",
+    "tartes-maison": "Parts de tartes aux pommes, aux myrtilles et à la vanille vues de dessus",
+    "entremets-abricot": "Un entremets à l'abricot et à la chantilly, décoré de pistaches",
+    "gateau-anniversaire": "Un gâteau d'anniversaire aux framboises avec une bougie, devant la terrasse du café",
+    "salle-guirlandes": "La salle du Café Louise : fauteuils en velours rose, tables en marbre et guirlandes de fleurs",
+    "salle-fauteuils": "Fauteuils coquillage roses, abat-jour à franges et murs en marbre",
+    "bouquet-table": "Un bouquet de roses sur une table en marbre, fauteuils en velours rose",
+    "enseigne": "L'enseigne du Café Louise : écriture dorée et cœur rose, au-dessus du store rayé"
+  }
+}

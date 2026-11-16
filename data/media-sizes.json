@@ -1,0 +1,62 @@
+{
+ "/media/hero/hero.jpg": [
+  1600,
+  1779
+ ],
+ "/media/petit-dejeuner/croissant-cappuccino.jpg": [
+  483,
+  640
+ ],
+ "/media/petit-dejeuner/croissants-pains-au-chocolat.jpg": [
+  480,
+  640
+ ],
+ "/media/petit-dejeuner/matcha-latte.jpg": [
+  1199,
+  1600
+ ],
+ "/media/petit-dejeuner/omelette-jus-orange.jpg": [
+  1036,
+  1096
+ ],
+ "/media/patisseries/entremets-abricot.jpg": [
+  480,
+  640
+ ],
+ "/media/patisseries/gateau-anniversaire.jpg": [
+  1504,
+  1322
+ ],
+ "/media/patisseries/macaron-framboise.jpg": [
+  361,
+  640
+ ],
+ "/media/patisseries/macarons.jpg": [
+  1200,
+  1600
+ ],
+ "/media/patisseries/tartes-maison.jpg": [
+  480,
+  640
+ ],
+ "/media/salle/bouquet-table.jpg": [
+  1200,
+  1600
+ ],
+ "/media/salle/salle-fauteuils.jpg": [
+  1200,
+  1600
+ ],
+ "/media/salle/salle-guirlandes.jpg": [
+  900,
+  1600
+ ],
+ "/media/terrasse/table-terrasse.jpg": [
+  960,
+  1600
+ ],
+ "/media/facade/enseigne.jpg": [
+  1600,
+  576
+ ]
+}

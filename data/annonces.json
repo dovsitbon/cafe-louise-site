@@ -1,0 +1,27 @@
+{
+  "_doc": "Bandeau d'infos en haut du site (refermable, mémorisé pour la session). Ordre de priorité : 1. une fermeture en cours ou dans les 14 jours (data/horaires.json → closures) ; 2. le premier message ci-dessous dont la période contient la date du jour (from / to inclus, AAAA-MM-JJ) : fête du moment, nouveauté, saison ; 3. sinon « default ». Textes en fr, en et es. Les 25 décembre et 1er janvier sont marqués fermés dans data/horaires.json → exceptions : à confirmer avec le café.",
+  "items": [
+    {
+      "id": "fetes-2026",
+      "from": "2026-12-08",
+      "to": "2026-12-31",
+      "fr": "Fêtes de fin d'année : boîtes de macarons à offrir, pensez à les commander · Fermé le 25 décembre",
+      "en": "Holiday season: boxes of macarons to give, order ahead · Closed on 25 December",
+      "es": "Fiestas: cajas de macarons para regalar, encárguelas con tiempo · Cerrado el 25 de diciembre"
+    },
+    {
+      "id": "saint-valentin-2027",
+      "from": "2027-02-05",
+      "to": "2027-02-14",
+      "fr": "Saint-Valentin : un petit-déjeuner à deux, à dix minutes de la tour Eiffel",
+      "en": "Valentine's Day: breakfast for two, ten minutes from the Eiffel Tower",
+      "es": "San Valentín: un desayuno para dos, a diez minutos de la torre Eiffel"
+    }
+  ],
+  "default": {
+    "id": "infos",
+    "fr": "À 10 minutes à pied de la tour Eiffel · Petit-déjeuner dès 7 h, du mardi au samedi",
+    "en": "A 10-minute walk from the Eiffel Tower · Breakfast from 7 am, Tuesday to Saturday",
+    "es": "A 10 minutos a pie de la torre Eiffel · Desayuno desde las 7:00, de martes a sábado"
+  }
+}
